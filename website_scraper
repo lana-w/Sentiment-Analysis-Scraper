@@ -1,3 +1,5 @@
 # This file is used to scrape the website for its review to be processed elsewhere
 
 # This will be using beautiful soup to parse through html
+
+# The site we will be using is
