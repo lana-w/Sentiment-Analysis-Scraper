@@ -1,21 +1,22 @@
 from selenium import webdriver
 
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
 from bs4 import BeautifulSoup
 
 import pandas as pd
 
-driver = webdriver.Chrome('/Desktop/Personal/CodingProjects/chromedriver_mac_arm64.zip')
+driver = webdriver.Chrome('/Applications/Google Chrome.app')
 
-driver.get('https://www.rogerebert.com/reviews/insidious-the-red-door-movie-review-2023')
+driver.get('https://www.rogerebert.com/')
 
 positive = 0
 negative = 0
 neutral = 0
 
-phrase1 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
+search_box = driver.find_element(By.NAME, 'q')
 
-phrase2 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
+search_box.send_keys('Jurassic Park')
 
-phrase3 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
+search_box.submit()
