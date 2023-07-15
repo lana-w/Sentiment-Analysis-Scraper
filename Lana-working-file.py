@@ -16,7 +16,7 @@ time.sleep(2) # Let the user actually see something!
 
 search_box = driver.find_element(By.NAME, 'q')
 
-search_box.send_keys('Black')
+search_box.send_keys('Jurassic Park')
 
 search_box.submit()
 
