@@ -17,3 +17,5 @@ neutral = 0
 phrase1 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
 
 phrase2 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
+
+phrase3 = driver.find_elements_by_xpath('//td[@class="hh-salaries-sorted"]')
