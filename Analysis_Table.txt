@@ -6,7 +6,7 @@ A collection of keywords and phrases to be used for the algorithm
 
 
 Positive phrases -> Good Reviews, Praise
------------------------------------------------
+---------------------------------------------
 Amazing
 Agree
 Good
@@ -14,13 +14,23 @@ Happy
 
 
 
+
 Negative phrases -> Bad Reviews, Criticism
 -----------------------------------------------
 Bored
 Bad
+Terrible
 
 
 
 
 Misc phrases -> Phrases that can be positive or negative given a specific genre
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Afraid
+Horrifying
+
+
+
+
+Specific Equations to use
+------------------------------
